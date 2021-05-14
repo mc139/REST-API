@@ -16,12 +16,13 @@ public class DbService {
         return repository.findAll();
     }
 
-    public Optional<Task> getOneTask(long id){
-        Optional<Task> task = Optional.ofNullable(repository.findById(id));
-        return task;
-
+    public Optional<Task> getTask(final Long taskId) {
+        return repository.findById(taskId);
     }
 
+    public Task saveTask(final Task task) {
+        return repository.save(task);
+    }
     public DbService(TaskRepository repository) {
         this.repository = repository;
     }

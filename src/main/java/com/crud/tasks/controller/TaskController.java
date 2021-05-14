@@ -30,7 +30,7 @@ public class TaskController {
 
     @RequestMapping(method = RequestMethod.GET,value = "getTask/{id}")
     public Optional<Task> getTask(@PathVariable("id") long id) {
-        Optional<Task> task = service.getOneTask(id);
+        Optional<Task> task = service.getTask(id);
         return task;
     }
 
