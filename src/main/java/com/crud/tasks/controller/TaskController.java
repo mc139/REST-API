@@ -1,25 +1,37 @@
 package com.crud.tasks.controller;
 
+import com.crud.tasks.domain.Task;
 import com.crud.tasks.domain.TaskDto;
+import com.crud.tasks.mapper.TaskMapper;
+import com.crud.tasks.service.DbService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/v1/task")
+@RequiredArgsConstructor
 public class TaskController {
 
-    @RequestMapping(method = RequestMethod.GET,value = "getTask")
-    public List<TaskDto> getTask() {
-        return new ArrayList<>();
-    }
+    private final DbService service;
+    private final TaskMapper taskMapper;
+
 
     @RequestMapping(method = RequestMethod.GET, value = "getTasks")
-    public TaskDto getTasks(Long taskId) {
-        return new TaskDto(1L, "test 1", "test content");
+    public List<TaskDto> getTasks() {
+        List<Task> tasks = service.getAllTasks();
+        return taskMapper.mapToTaskDtoList(tasks);
+    }
+
+    @RequestMapping(method = RequestMethod.GET,value = "getTask/{id}")
+    public Optional<Task> getTask(@PathVariable("id") long id) {
+        Optional<Task> task = service.getOneTask(id);
+        return task;
     }
 
     @RequestMapping(method = RequestMethod.DELETE,value = "deleteTask")
