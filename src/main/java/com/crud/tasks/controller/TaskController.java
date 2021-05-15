@@ -48,7 +48,7 @@ public class TaskController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
-    public void deleteTask(Long taskId) {
+    public void deleteTask(@RequestBody Long taskId) {
         service.deleteTask(taskId);
     }
 
