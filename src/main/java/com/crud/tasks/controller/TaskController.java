@@ -9,8 +9,8 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/v1/task")
 @RequiredArgsConstructor
@@ -19,19 +19,16 @@ public class TaskController {
     private final DbService service;
     private final TaskMapper taskMapper;
 
+//    @RequestMapping(method = RequestMethod.GET, value = "getTasks")
+//    public List<TaskDto> getTasks() {
+//        List<Task> tasks = service.getAllTasks();
+//        return taskMapper.mapToTaskDtoList(tasks);
+//    }
 
     @RequestMapping(method = RequestMethod.GET, value = "getTasks")
     public List<TaskDto> getTasks() {
-        List<Task> tasks = service.getAllTasks();
-        return taskMapper.mapToTaskDtoList(tasks);
+        return taskMapper.mapToTaskDtoList(service.getAllTasks());
     }
-
-//    @RequestMapping(method = RequestMethod.GET,value = "getTask/{id}")
-//    public Optional<Task> getTask(@PathVariable("id") long id) {
-//        Optional<Task> task = service.getTask(id);
-//        return task;
-//    }
-
 
     @RequestMapping(method = RequestMethod.GET, value = "getTask")
     public TaskDto getTask(@RequestParam Long taskId) throws TaskNotFoundException {
@@ -48,9 +45,15 @@ public class TaskController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
-    public void deleteTask(@RequestBody Long taskId) {
+    public void deleteTask(@RequestParam Long taskId) {
         service.deleteTask(taskId);
     }
+
+
+//    @RequestMapping(method = RequestMethod.DELETE, value = "tasks/{taskId}")
+//    public Task deleteTask(@PathVariable Long taskId) {
+//       return service.deleteTask(taskId);
+//    }
 
     @RequestMapping(method = RequestMethod.PUT, value = "updateTask")
     public TaskDto updateTask(@RequestBody TaskDto taskDto) {

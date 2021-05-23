@@ -14,7 +14,7 @@ import java.util.Optional;
 public class DbService {
 
     @Autowired
-    private final TaskRepository repository;
+    private TaskRepository repository;
 
     public List<Task> getAllTasks(){
         return repository.findAll();
@@ -28,8 +28,9 @@ public class DbService {
         return repository.save(task);
     }
 
-    public void deleteTask(final Long id){
-        repository.deleteById(id);
+    public Task deleteTask(final Long taskId){
+        repository.deleteById(taskId);
+        return null;
     }
 
 }
