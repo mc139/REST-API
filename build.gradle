@@ -21,7 +21,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.20'
 
 //	implementation group: 'mysql', name: 'mysql-connector-java'
-	implementation group: 'postgresql', name: 'postgresql-connector-java'
+	runtimeOnly 'org.postgresql:postgresql'
 	testCompileOnly 'org.projectlombok:lombok:1.18.20'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
