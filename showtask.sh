@@ -1,6 +1,6 @@
- chmod +x runcrud.sh
+chmod +x runcrud.sh
 ./runcrud.sh
-if chmod runcrud.sh; then
+if  runcrud.sh; then
   echo "Success"
 else
   echo "There were errors"
