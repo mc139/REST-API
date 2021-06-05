@@ -21,8 +21,11 @@ public class TrelloController {
 
         List<TrelloBoardDto> trelloBoards = trelloClient.getTrelloBoards();
 
-        trelloBoards.forEach(trelloBoardDto -> {
-            System.out.println(trelloBoardDto.getId() + " " + trelloBoardDto.getName());
-        });
+        trelloBoards.stream()
+                .filter(tb -> tb.getName() != null && tb.getId() != null)
+                .filter(tb -> tb.getName().contains("Kodilla"))
+                .forEach(trelloBoardDto -> {
+                    System.out.println(trelloBoardDto.getId() + " " + trelloBoardDto.getName());
+                });
     }
 }
