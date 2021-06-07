@@ -87,4 +87,21 @@ class TrelloClientTest {
         assertEquals("http://test.com", newCard.getShortUrl());
     }
 
+    @Test
+    void shouldReturnEmptyList(){
+
+        //GIVEN
+        when(trelloConfig.getTrelloApiEndpoint()).thenReturn("http://test.com");
+        when(trelloConfig.getTrelloApiUsername()).thenReturn("test");
+        when(trelloConfig.getTrelloApiKey()).thenReturn("test");
+        when(trelloConfig.getTrelloToken()).thenReturn("test");
+
+        //WHEN
+        List<TrelloBoardDto> myEmptyTrelloBoards = trelloClient.getTrelloBoards();
+
+        //THEN
+        assertEquals(0,myEmptyTrelloBoards.size());
+
+    }
+
 }
