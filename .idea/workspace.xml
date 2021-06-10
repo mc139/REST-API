@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9c27422-14d1-47d7-ac35-895e3240868c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ab6f6a5c-e347-4df0-84f8-0b1450301522.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bootJarMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bootWarMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/TasksApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/config/CoreConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TaskNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/controller/TrelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/CreatedTrelloCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TaskDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloBoardDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloCardDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/domain/TrelloListDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/mapper/TaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/service/DbService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/client/TrelloClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/config/TrelloConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/TasksApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/crud/tasks/trello/client/TrelloClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/crud.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/TasksApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/domain/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/domain/TaskDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classes/com/crud/tasks/service/DbService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/classpath.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/layers.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-annotations-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-core-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-databind-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-datatype-jdk8-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-datatype-jsr310-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jackson-module-parameter-names-2.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jakarta.el-3.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/jul-to-slf4j-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/log4j-api-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/log4j-to-slf4j-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/snakeyaml-1.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-aop-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-beans-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-boot-2.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-boot-autoconfigure-2.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-boot-jarmode-layertools-2.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-context-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-core-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-expression-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-jcl-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-web-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/spring-webmvc-5.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/tomcat-embed-core-9.0.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/BOOT-INF/lib/tomcat-embed-websocket-9.0.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/ClassPathIndexFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/ExecutableArchiveLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/JarLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/LaunchedURLClassLoader$DefinePackageCallType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/LaunchedURLClassLoader$UseFastConnectionExceptionsEnumeration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/LaunchedURLClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/Launcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/MainMethodRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/PropertiesLauncher$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/PropertiesLauncher$ArchiveEntryFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/PropertiesLauncher$ClassPathArchives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/PropertiesLauncher$PrefixMatchingArchiveFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/PropertiesLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/WarLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/Archive$Entry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/Archive$EntryFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/Archive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive$AbstractIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive$ArchiveIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive$EntryIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive$FileEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive$SimpleJarFileArchive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/ExplodedArchive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/JarFileArchive$AbstractIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/JarFileArchive$EntryIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/JarFileArchive$JarFileEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/JarFileArchive$NestedArchiveIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/archive/JarFileArchive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/data/RandomAccessData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/data/RandomAccessDataFile$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/data/RandomAccessDataFile$DataInputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/data/RandomAccessDataFile$FileAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/data/RandomAccessDataFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/AbstractJarFile$JarFileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/AbstractJarFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/AsciiBytes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/Bytes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$Zip64End.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$Zip64Locator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryEndRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryFileHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/CentralDirectoryVisitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/FileHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarEntryCertification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarEntryFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFile$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFile$JarEntryEnumeration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFileEntries$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFileEntries$EntryIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFileEntries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarFileWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarURLConnection$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarURLConnection$JarEntryName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/JarURLConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/StringSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jar/ZipInflaterInputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jarmode/JarMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jarmode/JarModeLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/jarmode/TestJarMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/tasks-0.0.1-SNAPSHOT/org/springframework/boot/loader/util/SystemPropertyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.crud.tasks.trello.client.TrelloClientTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.crud.tasks.trello.client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.crud.tasks.trello.client.TrelloClientTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tasks" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1sEFj1GOuDsQVZF3trzGvN8qvzH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.crud.tasks.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.crud.tasks.trello.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TasksApplication">
+    <configuration name="TrelloClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.client.TrelloClientTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TrelloClientTest.shouldCreateCard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.client.TrelloClientTest.shouldCreateCard&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TrelloClientTest.shouldFetchTrelloBoards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.client.TrelloClientTest.shouldFetchTrelloBoards&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TrelloClientTest.shouldReturnEmptyList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.trello.client.TrelloClientTest.shouldReturnEmptyList&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="runcrud.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/runcrud.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="TasksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tasks.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crud.tasks.TasksApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TrelloClientTest" />
+        <item itemvalue="Gradle.TrelloClientTest.shouldReturnEmptyList" />
+        <item itemvalue="Gradle.TrelloClientTest.shouldCreateCard" />
+        <item itemvalue="Gradle.TrelloClientTest.shouldFetchTrelloBoards" />
+        <item itemvalue="Shell Script.runcrud.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c27422-14d1-47d7-ac35-895e3240868c" name="Default Changelist" comment="" />
+      <created>1620429973330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620429973330</updated>
+      <workItem from="1620429974541" duration="3904000" />
+      <workItem from="1620773854556" duration="3661000" />
+      <workItem from="1620830764494" duration="1611000" />
+      <workItem from="1620904831238" duration="3975000" />
+      <workItem from="1620993630036" duration="4355000" />
+      <workItem from="1621007192159" duration="91000" />
+      <workItem from="1621007508958" duration="2778000" />
+      <workItem from="1621166236015" duration="696000" />
+      <workItem from="1621593483139" duration="6024000" />
+      <workItem from="1622036158070" duration="279000" />
+      <workItem from="1622036683204" duration="82000" />
+      <workItem from="1622036846468" duration="4855000" />
+      <workItem from="1622382330849" duration="2325000" />
+      <workItem from="1622634538142" duration="18876000" />
+      <workItem from="1623066296504" duration="5596000" />
+      <workItem from="1623241449217" duration="3919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
