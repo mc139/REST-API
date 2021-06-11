@@ -7,7 +7,7 @@ import lombok.Getter;
 import java.util.Optional;
 
 @Getter
-@Builder()
+@Builder
 public class Mail {
     private final String mailTo;
     private final String subject;
