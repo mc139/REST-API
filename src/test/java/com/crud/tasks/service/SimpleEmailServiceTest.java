@@ -1,6 +1,7 @@
 package com.crud.tasks.service;
 
 import com.crud.tasks.domain.Mail;
+import com.crud.tasks.domain.Mail.MailBuilder;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -22,23 +23,29 @@ class SimpleEmailServiceTest {
     @Mock
     private JavaMailSender javaMailSender;
 
-//    @Test
-//    public void shouldSendEmail() {
-//        //Given
-//        Mail mail = new Mail("test@test.com", "Test", "Test Message");
-//
-//        SimpleMailMessage mailMessage = new SimpleMailMessage();
-//        mailMessage.setTo(mail.getMailTo());
-//        mailMessage.setSubject(mail.getSubject());
-//        mailMessage.setText(mail.getMessage());
-//
-//
-//        //When
-//        simpleEmailService.send(mail);
-//
-//        //Then
-//        verify(javaMailSender, times(1)).send(mailMessage);
-//
-//    }
+    @Test
+    public void shouldSendEmail() {
+        //Given
+        Mail mail = Mail.builder()
+
+                .mailTo("test")
+                .subject("test")
+                .message("test")
+                .toCc("test")
+                .build();
+
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setTo(mail.getMailTo());
+        mailMessage.setSubject(mail.getSubject());
+        mailMessage.setText(mail.getMessage());
+
+
+        //When
+        simpleEmailService.send(mail);
+
+        //Then
+        verify(javaMailSender, times(1)).send(mailMessage);
+
+    }
 
 }

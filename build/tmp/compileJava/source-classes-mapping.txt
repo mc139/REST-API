@@ -36,3 +36,4 @@ com/crud/tasks/service/SimpleEmailService.java
  com.crud.tasks.service.SimpleEmailService
 com/crud/tasks/domain/Mail.java
  com.crud.tasks.domain.Mail
+ com.crud.tasks.domain.Mail$MailBuilder
