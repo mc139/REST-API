@@ -34,8 +34,11 @@ public class SimpleEmailService {
         mailMessage.setTo(mail.getMailTo());
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
-        Optional<String> cc = Optional.of(mail.getToCc());
+        Optional<String> cc = Optional.ofNullable(mail.getToCc());
         cc.ifPresent(c -> mailMessage.setCc(mail.getToCc()));
         return mailMessage;
     }
+
+    //zmienne do maila exportem w terminalu -Lokalnie
+    // odkomentowac application properties
 }

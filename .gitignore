@@ -34,7 +34,7 @@ out/
 /.nb-gradle/
 
 ### Sensitive Data ###
-src/main/resources/application.properties
+#src/main/resources/application.properties
 
 ### VS Code ###
 .vscode/
