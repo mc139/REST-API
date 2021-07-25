@@ -31,7 +31,6 @@ class SimpleEmailServiceTest {
                 .mailTo("test")
                 .subject("test")
                 .message("test")
-                .toCc("test")
                 .build();
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
@@ -43,7 +42,7 @@ class SimpleEmailServiceTest {
         //When
         simpleEmailService.send(mail);
 
-        //Then
+        //then
         verify(javaMailSender, times(1)).send(mailMessage);
 
     }

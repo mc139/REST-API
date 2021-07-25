@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c27422-14d1-47d7-ac35-895e3240868c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/config/TrelloConfigTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/domain/TrelloListDtoTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/DbServiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/TrelloServiceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6f6a5c-e347-4df0-84f8-0b1450301522.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6f6a5c-e347-4df0-84f8-0b1450301522.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/TrelloFacadeTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/config/TrelloConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/crud/tasks/trello/config/TrelloConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/config/TrelloConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/config/TrelloConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,24 +128,26 @@
       <recent name="com.crud.tasks.trello.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrelloFacadeTestSuite">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.Tests in 'tasks.test'">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloFacadeTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleEmailServiceTest.shouldSendEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.facade.TrelloFacadeTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.service.SimpleEmailServiceTest.shouldSendEmail&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -129,12 +163,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldMapToBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TasksApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.facade.TrelloFacadeTestSuite.shouldMapToBoard&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.TasksApplicationTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,12 +184,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldMapToBoards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'tasks.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.facade.TrelloFacadeTestSuite.shouldMapToBoards&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,12 +205,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldMapToBoardsDto" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrelloConfigTestSuite.shouldGetTrelloBoardWithStubConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.facade.TrelloFacadeTestSuite.shouldMapToBoardsDto&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.config.TrelloConfigTestSuite.shouldGetTrelloBoardWithStubConfig&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,12 +226,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldMapToTaskListDto" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrelloConfigTestSuite.shouldGetTrelloConfigWithStubData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.facade.TrelloFacadeTestSuite.shouldMapToTaskListDto&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.crud.tasks.config.TrelloConfigTestSuite.shouldGetTrelloConfigWithStubData&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -222,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TrelloFacadeTestSuite" />
-        <item itemvalue="Gradle.TrelloFacadeTestSuite.shouldMapToBoardsDto" />
-        <item itemvalue="Gradle.TrelloFacadeTestSuite.shouldMapToBoards" />
-        <item itemvalue="Gradle.TrelloFacadeTestSuite.shouldMapToBoard" />
-        <item itemvalue="Gradle.TrelloFacadeTestSuite.shouldMapToTaskListDto" />
+        <item itemvalue="Gradle.Tests in 'tasks.test'" />
+        <item itemvalue="Gradle.SimpleEmailServiceTest.shouldSendEmail" />
+        <item itemvalue="Gradle.TasksApplicationTests" />
+        <item itemvalue="Gradle.TrelloConfigTestSuite.shouldGetTrelloConfigWithStubData" />
+        <item itemvalue="Gradle.TrelloConfigTestSuite.shouldGetTrelloBoardWithStubConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +289,8 @@
       <workItem from="1623066296504" duration="5596000" />
       <workItem from="1623241449217" duration="17654000" />
       <workItem from="1623679812285" duration="7881000" />
-      <workItem from="1626874939288" duration="22489000" />
+      <workItem from="1626874939288" duration="27313000" />
+      <workItem from="1627052461279" duration="15520000" />
     </task>
     <servers />
   </component>
@@ -283,5 +318,8 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tasks$Tests_in__tasks_test_.ic" NAME="Tests in 'tasks.test' Coverage Results" MODIFIED="1627234141151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
