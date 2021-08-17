@@ -49,13 +49,13 @@ com/crud/tasks/config/AdminConfig.java
  com.crud.tasks.config.AdminConfig
 com/crud/tasks/trello/facade/TrelloFacade.java
  com.crud.tasks.trello.facade.TrelloFacade
-com/crud/tasks/service/SimpleEmailService.java
- com.crud.tasks.service.SimpleEmailService
-com/crud/tasks/domain/TrelloListDto.java
- com.crud.tasks.domain.TrelloListDto
-com/crud/tasks/service/MailCreatorService.java
- com.crud.tasks.service.MailCreatorService
-com/crud/tasks/config/CompanyConfig.java
- com.crud.tasks.config.CompanyConfig
 com/crud/tasks/domain/TrelloMapper.java
  com.crud.tasks.domain.TrelloMapper
+com/crud/tasks/domain/TrelloListDto.java
+ com.crud.tasks.domain.TrelloListDto
+com/crud/tasks/config/CompanyConfig.java
+ com.crud.tasks.config.CompanyConfig
+com/crud/tasks/service/SimpleEmailService.java
+ com.crud.tasks.service.SimpleEmailService
+com/crud/tasks/service/MailCreatorService.java
+ com.crud.tasks.service.MailCreatorService
