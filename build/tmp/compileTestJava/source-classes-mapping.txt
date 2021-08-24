@@ -10,6 +10,8 @@ com/crud/tasks/config/TrelloConfigTestSuite.java
  com.crud.tasks.config.TrelloConfigTestSuite
 com/crud/tasks/TasksApplicationTests.java
  com.crud.tasks.TasksApplicationTests
+com/crud/tasks/controller/TrelloControllerTest.java
+ com.crud.tasks.controller.TrelloControllerTest
 com/crud/tasks/trello/client/TrelloClientTest.java
  com.crud.tasks.trello.client.TrelloClientTest
 com/crud/tasks/service/SimpleEmailServiceTest.java
@@ -18,7 +20,5 @@ com/crud/tasks/domain/TrelloListDtoTestSuite.java
  com.crud.tasks.domain.TrelloListDtoTestSuite
 com/crud/tasks/service/DbServiceTestSuite.java
  com.crud.tasks.service.DbServiceTestSuite
-com/crud/tasks/controller/TrelloControllerTest.java
- com.crud.tasks.controller.TrelloControllerTest
 com/crud/tasks/controller/TaskControllerTest.java
  com.crud.tasks.controller.TaskControllerTest
